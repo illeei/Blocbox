@@ -322,6 +322,7 @@ header .hero {
    padding: 2.35em 0;
    margin: 0 auto;
    display: block;
+
  }
  @media (min-width: 992px){
   footer{
@@ -338,7 +339,7 @@ header .hero {
     background-color: #3498DB;
   }
   footer .logo{
-    padding: 2em 0 2em 1.5em;
+    padding: 1em 0 2em 1.5em;
     width: 40%;
   }
 }
