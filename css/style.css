@@ -322,9 +322,10 @@ header .hero {
    background-color: transparent;
  }
  footer .logo {
-   padding: 2.35em 0;
+   padding: 0;
    margin: 0 auto;
    display: block;
+   max-width: 40%;
 
  }
  @media (min-width: 992px){
