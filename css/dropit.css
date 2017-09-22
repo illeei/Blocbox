@@ -15,6 +15,10 @@
   float: right;
   display: inline-block;
 }
+.acct-settings {
+  float: right;
+  margin: 3px 5px;
+}
 .dropit .dropit-trigger { position: relative; }
 .dropit .dropit-submenu {
     position: absolute;
@@ -24,8 +28,15 @@
     display: none;
     min-width: 100px;
     list-style: none;
-	  padding: 20px;
+	  padding: 20px 20px 0 20px;
 	  margin:20px 0 0;
+}
+.acct-settings.dropit .dropit-submenu {
+  position: absolute;
+  top: -180px;
+  padding: 15px 20px 15px 20px;
+  margin:20px 0 0;
+
 }
 .dropit .dropit-open .dropit-submenu {
   display: block;
@@ -42,19 +53,40 @@
   display: block;
   width: 0;
   z-index: 1;
-  top: -8px;
+  top: 0px;
   right: 10px;
  }
+.acct-settings.dropit .dropit-open .dropit-submenu:after {
+  top: 100%;
+  bottom: 20px;
+  right: 12px;
+}
+.acct-settings.dropit .dropit-open .dropit-submenu:after{
+  -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+}
  .dropit .dropit-open .dropit-submenu li {
   display: block;
   margin-bottom: 20px;
  }
+}
  .dropit .dropit-open .dropit-submenu li:last-child {
   margin-bottom: 0px;
  }
+
  .dropit .dropit-open .dropit-submenu li a {
   color:#34495E;
   text-decoration: none;
   font-family: "Open-Sans", Helvetica, Arial, sans-serif;
   font-weight:100;
+ }
+ .acct-settings.dropit .dropit-open .dropit-submenu li a {
+  color: #34495E;
+  text-align: left;
+  text-decoration: none;
+  font-family: "Open-Sans", Helvetica, Arial, sans-serif;
+  font-weight:100;
+  width: 150px;
+  padding: 5%;
  }

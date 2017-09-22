@@ -393,9 +393,9 @@ header .hero {
   }
  }
  .left-nav .site-logo {
-   padding:20px 0;
+   padding: 20px;
    background:#34495E;
-   display:block;
+   display: block;
    text-align: center;
  }
  .left-nav .items {
