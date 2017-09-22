@@ -34,8 +34,8 @@
 .acct-settings.dropit .dropit-submenu {
   position: absolute;
   top: -180px;
-  padding: 15px 20px 15px 20px;
-  margin:20px 0 0;
+  padding: 15px 30px 15px 20px;
+  margin: 20px 0 0;
 
 }
 .dropit .dropit-open .dropit-submenu {
@@ -89,4 +89,5 @@
   font-weight:100;
   width: 150px;
   padding: 5%;
+  margin-left: 10px;
  }
